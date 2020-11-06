@@ -4,15 +4,15 @@ int main () {
 
 	  setlocale(LC_ALL,"portuguese");
       int numero;
-      cout << "Digite um número: " << endl;
+      cout << "Digite um nÃºmero: " << endl;
       cin >> numero;
       
       if (numero == 35) {
-      	cout << "O valor inserido é igual á: 35!" << endl;
+      	cout << "O valor inserido Ã© igual Ã¡: 35!" << endl;
 	  } else if (numero < 35) {
-	  	cout << "Número menor que 35!" << endl;
+	  	cout << "NÃºmero menor que 35!" << endl;
 	  } else if (numero > 35) {
-	  	cout << "Número maior que 35!" << endl;
+	  	cout << "NÃºmero maior que 35!" << endl;
 	  }
 
  return 0;
