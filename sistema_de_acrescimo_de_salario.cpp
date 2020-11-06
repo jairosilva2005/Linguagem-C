@@ -6,10 +6,10 @@ int main () {
 	  setlocale(LC_ALL,"portuguese");
       double salario, total, acrescimo;
       int codg;
-      cout << "Digite o salário do seu funcionário: " << endl;
+      cout << "Digite o salÃ¡rio do seu funcionÃ¡rio: " << endl;
       cin >> salario;
       system("cls");
-      cout << "Digite o código do funcionário: " << endl;
+      cout << "Digite o cÃ³digo do funcionÃ¡rio: " << endl;
       cin >> codg;
       system("cls");
       switch (codg) {
@@ -18,7 +18,7 @@ int main () {
 
       		acrescimo = (salario*5)/100;
       		total = salario + acrescimo;
-      		cout << "Seu novo salário é: R$ " << total << "" << endl;
+      		cout << "Seu novo salÃ¡rio Ã©: R$ " << total << "" << endl;
             system("pause");
       		break;
 
@@ -26,7 +26,7 @@ int main () {
 
       		acrescimo = (salario*7)/100;
       		total = salario + acrescimo;
-      		cout << "Seu novo salário é: R$ " << total << "" << endl;
+      		cout << "Seu novo salÃ¡rio Ã©: R$ " << total << "" << endl;
       		system("pause");
       		break;
 
@@ -34,7 +34,7 @@ int main () {
 
       		acrescimo = (salario*10)/100;
       		total = salario + acrescimo;
-      		cout << "Seu novo salário é: R$ " << total << "" << endl;
+      		cout << "Seu novo salÃ¡rio Ã©: R$ " << total << "" << endl;
       		system("pause");
       		break;
 
@@ -42,7 +42,7 @@ int main () {
 
       		acrescimo = (salario*12)/100;
       		total = salario + acrescimo;
-      		cout << "Seu novo salário é: R$ " << total << "" << endl;
+      		cout << "Seu novo salÃ¡rio Ã©: R$ " << total << "" << endl;
       		system("pause");
       		break;
 
@@ -50,16 +50,16 @@ int main () {
 
       		acrescimo = (salario*15)/100;
       		total = salario + acrescimo;
-      		cout << "Seu novo salário é: R$ " << total << "" << endl;
+      		cout << "Seu novo salÃ¡rio Ã©: R$ " << total << "" << endl;
       		system("pause");
       		break;
 
       	default:
 
-	  	    cout << "Código inválido portanto, você irá receber 15% de acréscimo " << endl;
+	  	    cout << "CÃ³digo invÃ¡lido portanto, vocÃª irÃ¡ receber 15% de acrÃ©scimo " << endl;
 	  	    acrescimo = (salario*15)/100;
       		total = salario + acrescimo;
-      		cout << "Seu novo salário é: R$ " << total << "" << endl;
+      		cout << "Seu novo salÃ¡rio Ã©: R$ " << total << "" << endl;
       		system("pause");
             break;
 	  }
