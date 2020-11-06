@@ -4,9 +4,9 @@ int main () {
 
 	  setlocale(LC_ALL,"portuguese");
       int a, b;
-      cout << "Digite um número a: " << endl;
+      cout << "Digite um nÃºmero a: " << endl;
       cin >> a;
-      cout << "Digite outro número b: " << endl;
+      cout << "Digite outro nÃºmero b: " << endl;
       cin >> b;
       
       int cnt = a + (b * 8) + 5; // item A
