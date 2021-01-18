@@ -1,2 +1,2 @@
 # Estudos-C++
-Aqui é onde eu coloco minhas atividades em C++
+Aqui é onde coloco alguns exercícios em C++
